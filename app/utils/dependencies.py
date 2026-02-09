@@ -24,7 +24,7 @@ from app.utils.security import verify_token
 
 # এটা FastAPI কে বলে: "Authorization header থেকে token নাও"
 # tokenUrl: Login endpoint এর URL (Swagger docs এ কাজে লাগে)
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login/form")
 
 
 # =============================================
